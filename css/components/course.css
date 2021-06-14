@@ -1,0 +1,32 @@
+.course img{
+  width: 210px;
+  height: 210px;
+  border-radius: 8px;
+  margin: 0px auto;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.course img:hover{
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.35);
+  transition: 0.20s;
+  opacity: 0.8;
+}
+
+.course a{
+  font-family: roboto, sans-serif;
+  color: #58165D;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 35px auto auto;
+  text-decoration: none;
+}
+
+.course a:hover{
+  color: #a527a5;
+  transform: scale(1.1);
+}
+
+.course{
+  display: grid;
+}

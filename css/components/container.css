@@ -1,0 +1,49 @@
+@media (max-width: 1080px) {
+
+  .course img{
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  .courses {
+    gap: 10px;
+  }
+
+  .questions h2{
+    font-size: 15px !important;
+  }
+
+  .questions p{
+    font-size: 12px !important;
+  }
+
+  .info{
+    grid-template-columns: 265px 265px 265px !important;
+    column-gap: 35px !important;
+  }
+
+  .info a{
+    font-size: 14px !important;
+  }
+
+  .teachers p{
+    font-size: 10px !important;
+    font-weight: 700 !important;
+  }
+
+  .teachers {
+    gap: 45px 50px !important;
+    grid-template-columns: 360px 360px !important;
+  }
+
+  #social a{
+    font-size: 45px !important;
+    padding: 0px 20px !important;
+  }
+
+  #gotop{
+    font-size: 65px !important;
+  }
+
+}
+

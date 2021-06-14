@@ -1,0 +1,7 @@
+.courses{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px 0px 0px;
+  padding: 220px;
+  background-color: rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,37 @@
+.info{
+  display: grid;
+  grid-template-columns: 290px 290px 290px;
+  column-gap: 150px;
+  margin: 0px;
+  padding: 80px 0px 130px 0px;
+  background-color: rgba(0, 0, 0, 0.12);
+  justify-content: center;
+}
+
+#subscribe{
+  margin-top: 150px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* botón */
+
+.info a{
+  background-color: #a527a5;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2)
+}
+
+.info a:hover{
+  background-color: #6d0d6d;
+  color: whitesmoke;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.35)
+}
